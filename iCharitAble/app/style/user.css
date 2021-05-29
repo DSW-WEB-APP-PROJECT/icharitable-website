@@ -1,0 +1,105 @@
+
+
+/* donatiion box */
+
+.donate{
+    box-shadow: 0px 0px 10px 2px rgb(246, 246, 246);
+    padding: 10px;
+    /* margin-top: 10px; */
+    max-width: 400px;
+    width: 100%;
+    margin: 10px;
+}
+
+.donate .donateHeader{
+    font-weight: bold;
+    font-size: 20px;
+}
+.donate  label{
+    /* font-weight: bold; */
+    font-size: 12px;
+    color: rgb(41, 42, 41);
+}
+.donate select{
+    outline:0;
+ border:   var(--primary) 1px solid;
+ border-radius: 5px;
+ width: 100%;
+ padding: 15px 5px;
+
+}
+
+
+
+.input-group{
+    margin:10px auto;
+}
+
+.input-group input{
+    outline:0;
+    border:   var(--primary) 1px solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 5px;
+   }
+   
+
+
+
+   
+.donation-grid{
+    display: flex;
+    align-items: flex-start;
+}
+
+.donation-grid .donation-log{
+    box-shadow: 0px 0px 10px 2px rgb(246, 246, 246);
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100%;
+    padding-bottom: 50px;
+    max-width: 800px !important;
+    
+}
+.donation-grid .donation-log .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.donation-grid .donation-log .top .right{
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.donation-grid .donation-log .top .left{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+
+.donated-things{
+    color: rgb(118, 119, 118);
+    font-size: 13px;
+}
+
+
+
+@media (max-width:700px) {
+   
+    .donation-grid{
+        flex-direction: column;
+    }
+    .donation-grid .donate{
+        width: 100% !important;
+        /* background: yellow; */
+        max-width: 96%;
+       order: 0;
+    }
+    .donation-log-container{
+        order: 1;
+    }
+}

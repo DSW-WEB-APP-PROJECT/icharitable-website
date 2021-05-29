@@ -1,0 +1,118 @@
+/* our colors */
+:root{
+   --primary:rgb(29, 211, 218) ;
+   --secondary:rgb(29, 180, 218) ;
+   --tertiary:rgb(84, 131, 153);
+   --danger:rgb(235, 44, 101);
+   
+}
+.err_email{
+    color: red !important;
+}
+.danger{
+    background: var(--danger) !important;
+}
+.tertiary{
+    background: var(--tertiary) !important;
+}
+
+.active{
+   color: rgb(0, 89, 255) !important;
+   font-weight: bold;
+}
+*{
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    font-size:25px;
+}
+.logo-text{
+    font-size: 12px;
+    color: grey;
+}
+.logo .left{
+    color: var(--primary);
+}
+
+.logo .right{
+    color:var(--primary);
+}
+
+
+
+
+
+hr{
+    border: 1.5px solid rgb(238, 238, 238);
+}
+
+
+
+
+.btn{
+    text-decoration: none;
+    padding:10px 15px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    outline:0;
+    background-color:var(--secondary) ;
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
+    color: white;
+    padding: 15px 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.btn,button{
+    box-shadow: 0px 0px 10px 2px rgb(221, 220, 220);
+}
+
+
+
+/* nav bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px rgb(221, 220, 220);
+    align-items: center;
+    
+}
+.nav .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .links a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration:  none;
+    color: var(--primary);
+}
+.nav .links a:last-child{
+    font-size: 10px;
+    color: white !important;
+}
+
+
+.container{
+    padding: 10px;
+}
+
+

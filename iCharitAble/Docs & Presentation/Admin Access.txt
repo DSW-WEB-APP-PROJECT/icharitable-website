@@ -1,0 +1,4 @@
+To access the Admin side:
+
+email: admin@charity.com
+pass: 123456

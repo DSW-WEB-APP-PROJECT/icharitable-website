@@ -1,0 +1,24 @@
+tr,th,td,table{
+    border: 1px solid rgb(3, 3, 3);
+    border-collapse: collapse;
+    padding: 5px;
+}
+thead{
+    position: sticky;
+    top: 50px;
+}
+th{
+    text-transform: uppercase;
+   
+     background: black;
+     color: white;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 10px;
+}
+tr,td{
+    border: 1px solid rgb(233, 231, 231) !important;
+}
